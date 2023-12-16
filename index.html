@@ -12,12 +12,13 @@
 </head>
 <body>
     <!----------------------- Navbar Starts Here ----------------------------->
-    <nav>
+    <i class="fa-solid fa-bars fa-2x" id="menu_icon"></i>
+    <nav id="menu" class="hidden">
         <ul class="nav_upper felx-space-Around">
                     <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
                     <li class="nav_list"><a href="register.html" class="nav_link">Register</a></li>
                     <li class="nav_list"><a href="login.html" class="nav_link">Login</a></li>
-                    <li class="nav_list"><a href="logout.html" class="nav_link">LogOut</a></li>
+                    <li class="nav_list"><a href="logout.html" class="nav_link">Logout</a></li>
                     <li class="nav_list"><a href="contact.html" class="nav_link">Contact</a></li>
                 <li class="nav_list"><a href="profile.html" class="nav_link"><img src="./images/Rakib-dc-removebg-preview.png" alt="" class="profile_icon"></a></li>
         </ul>
@@ -26,7 +27,25 @@
             <li class="nav_list"><a href="#" class="nav_link"><span><i class="fa-solid fa-cart-shopping"></i></span>Cart 2Products -$140.40</a></li>
         </ul>
     </nav>
-    <!----------------------- Navbar End Here ----------------------------->
-    
+    <!----------------------- Navbar Ends Here ----------------------------->
+    <main>
+        <h2>Home Page</h2>
+    </main>
+    <!----------------------- footer starts here ----------------------------->
+    <footer class="footer felx-space-Around">
+        <div class="felx-space-Around">
+            <label for="Subscribe">Subscribe To Newsletter:</label>
+            <input type="email" id="Subscribe" name="Subscribe" placeholder="Your Email Address" class="footer_input">
+            <button class="btn btn_subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright Tyfis Express All Rights reserved 2023</p>
+        </div>
+    </footer>
+
+    <!----------------------- footer ends here ----------------------------->
+    <!----------------------- Javascript Starts Here ---------------------->
+    <script src="./script/index.js"></script>
+    <!----------------------- Javascript Ends Here ---------------------->
 </body>
 </html>
