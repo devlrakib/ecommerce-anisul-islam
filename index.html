@@ -28,8 +28,291 @@
         </ul>
     </nav>
     <!----------------------- Navbar Ends Here ----------------------------->
-    <main>
-        <h2>Home Page</h2>
+
+    <!----------------------- Header Starts Here ----------------------------->
+    <header class="header">
+        <div class="banner felx-space-Around">
+            <marquee class="banner_title" behavior="" direction="">50% Sales Going On</marquee>
+            <div class="features  felx-space-Around">
+                <article class="feature">
+                    <i class="fa-solid fa-truck" class="feature_icon"></i>
+                    <h3>Shopping Within 7 Days</h3>
+                </article>
+                <article class="feature">
+                    <i class="fa-brands fa-rocketchat"></i>
+                    <h3>Support 24/7</h3>
+                </article>
+                <article class="feature">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3>Safe Payment</h3>
+                </article>
+            </div>
+        </div>
+    </header>
+
+    <!----------------------- Header Ends Here ----------------------------->
+    <main class="flex-center">
+        <div class="sidebar">
+          <section class="categories_section">
+            <h3 class="section_title">Categories</h3>
+            <ul class="list">
+                <li class="list_item">
+                    <label for="phone">
+                        <input type="checkbox" name="phone" id="phone">Phone
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="Tablets">
+                        <input type="checkbox" name="Tablets" id="Tablets">Tablet
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="Television">
+                        <input type="checkbox" name="Television" id="Television">Television
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="computer">
+                        <input type="checkbox" name="computeron" id="computer">Computer
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="headphones">
+                        <input type="checkbox" name="headphones" id="headphones">Headphone
+                    </label>
+                </li>
+            </ul>
+          </section>
+          <section class="price_section">
+            <h3 class="price_title">Price Range</h3>
+            <ul class="list">
+                <li class="list_item">
+                    <label for="price1">
+                        <input type="radio"price1" id="price1">$0-$20
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="price2">
+                        <input type="radio" id="price2">$21-$50
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="price3">
+                        <input type="radio" id="price3">$51-$100
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="price4">
+                        <input type="radio" id="price4">$101-$300
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="price5">
+                        <input type="radio" id="price5">$300+
+                    </label>
+                </li>
+                
+            </ul>
+          </section>
+          <section class="shipping_section">
+            <h3 class="shipping_title">Shipping Option</h3>
+            <ul class="list">
+                <li class="list_item">
+                    <label for="shipping1">
+                        <input type="radio"price1" id="shipping1">Free Shipping
+                    </label>
+                </li>
+                <li class="list_item">
+                    <label for="shipping2">
+                        <input type="radio" id="shipping2">Paid Shipping
+                </li>
+            </ul>
+          </section>
+        </div>
+        <div class="main_content">
+          <sections class="action flex-space-around">
+            <div class="actions_short">
+              <label for="short">Short By:</label>
+              <select name="short" id="short">
+                <option value="sold">Most Sold First</option>
+                <option value="rating">Most Rated First</option>
+                <option value="price">Cheapest First</option>
+                <option value="arrival">Newest First</option>
+                <option value="discount">Biggest Discount First</option>
+              </select>
+            </div>
+
+            <div class="action_search">
+                <input type="text" placeholder="Search Product">
+                <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+          </sections>
+          <!------------------------ Product Section Starts Here ------------------->
+          <section class="products">
+            <article class="product card">
+                <div class="badge">
+                    <span>5 In Stock</span>
+                    <hr class="hr_design">
+                    <span>3 Sold</span>
+                </div>
+                <img class="product_img"  src="./images/product1.jpg" alt="">
+                <div class="product_body">
+                    <h3 class="product_name">Cricket DSC Bat</h3>
+                     <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur ullam voluptates ea sint vero.... <a href="./product.html" class="learn_more">Learn More</a>
+                    </p>
+                    <h4 class="product_price">
+                        $255.99
+                    </h4>
+                    <p class="product_rating">
+                        Rating:4.5/5
+                    </p>
+                    <button class="btn product_button">Add To Cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <div class="badge">
+                    <span>5 In Stock</span>
+                    <hr class="hr_design">
+                    <span>3 Sold</span>
+                </div>
+                <img class="product_img"src="./images/product2.jpg" alt="">
+                <div class="product_body">
+                    <h3 class="product_name">Cricket Bat MB Malik Doom 5-Star</h3>
+                     <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                        Brand: MB Malik Made in: Pakistan Category: Tape Tennis Bat Age Group: Men Material: Wood Weight: 850G Plate Size: Wide….... <a href="./product.html" class="learn_more">Learn More</a>
+                    </p>
+                    <h4 class="product_price">
+                        $200.99
+                    </h4>
+                    <p class="product_rating">
+                        Rating:4.5/5
+                    </p>
+                    <button class="btn product_button">Add To Cart</button>
+                </div>
+            </article>
+            </article>
+            <article class="product card">
+                <div class="badge">
+                    <span>5 In Stock</span>
+                    <hr class="hr_design">
+                    <span>3 Sold</span>
+                </div>
+                <img class="product_img"src="./images/product3.jpg" alt="">
+                <div class="product_body">
+                    <h3 class="product_name">Tape Tennis Cricket Bat MB Malik Sialkot</h3>
+                     <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                        Tape Tennis Cricket Bat MB Malik Sialkot….... <a href="./product.html" class="learn_more">Learn More</a>
+                    </p>
+                    <h4 class="product_price">
+                        $255.99
+                    </h4>
+                    <p class="product_rating">
+                        Rating:4.5/5
+                    </p>
+                    <button class="btn product_button">Add To Cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <div class="badge">
+                    <span>5 In Stock</span>
+                    <hr class="hr_design">
+                    <span>3 Sold</span>
+                </div>
+                <img class="product_img"src="./images/p5.jpg" alt="">
+                <div class="product_body">
+                    <h3 class="product_name">Cricket Bat MB Malik Supreme</h3>
+                     <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                        Original MB Makil Cricket Bat Standard Size – Full Material : English Willow Wight : 1.2Kg ( ±200 Gram) Made…….... <a href="./product.html" class="learn_more">Learn More</a>
+                    </p>
+                    <h4 class="product_price">
+                        $345.99
+                    </h4>
+                    <p class="product_rating">
+                        Rating:4.5/5
+                    </p>
+                    <button class="btn product_button">Add To Cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <div class="badge">
+                    <span>5 In Stock</span>
+                    <hr class="hr_design">
+                    <span>3 Sold</span>
+                </div>
+                <img class="product_img"src="./images/p6.png" alt="">
+                <div class="product_body">
+                    <h3 class="product_name">Junior Cricket Bat MB Malik Size- 4</h3>
+                     <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                        Original MB Makil Cricket Bat Standard Size – Full Material : English Willow Wight : 1.2Kg ( ±200 Gram) Made…….... <a href="./product.html" class="learn_more">Learn More</a>
+                    </p>
+                    <h4 class="product_price">
+                        $275.99
+                    </h4>
+                    <p class="product_rating">
+                        Rating:4.5/5
+                    </p>
+                    <button class="btn product_button">Add To Cart</button>
+                </div>
+            </article>
+            <article class="product card">
+                <div class="badge">
+                    <span>5 In Stock</span>
+                    <hr class="hr_design">
+                    <span>3 Sold</span>
+                </div>
+                <img class="product_img"src="./images/p7.png" alt="">
+                <div class="product_body">
+                    <h3 class="product_name">Boom Boom Afride Cricket Bat</h3>
+                     <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product_description">
+                        Original MB Makil Cricket Bat Standard Size – Full Material : English Willow Wight : 1.2Kg ( ±200 Gram) Made…….... <a href="./product.html" class="learn_more">Learn More</a>
+                    </p>
+                    <h4 class="product_price">
+                        $255.00
+                    </h4>
+                    <p class="product_rating">
+                        Rating:4.5/5
+                    </p>
+                    <button class="btn product_button">Add To Cart</button>
+                </div>
+            </article>
+            
+          </section>
+
+          <!------------------------ Product Section Ends Here ------------------->
+        </div>
     </main>
     <!----------------------- footer starts here ----------------------------->
     <footer class="footer felx-space-Around">
