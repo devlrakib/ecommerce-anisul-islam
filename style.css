@@ -99,6 +99,27 @@ img{
 .learn_more{
     color: green;
 }
+
+.hr_design{
+    margin: 0.5rem 0;
+}
+
+.dot{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%; 
+    display: inline-block;   
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
 /*---------------- Reset Code And Common Code Ends Here -----------------------*/
 
 
@@ -302,8 +323,20 @@ width:auto;
 .feature h3{
     text-align: center;
 }
+/*------------- Pageination CSS  Starts Here ----------------*/
+.button_pageination img{
+    height: 10px;
+}
 
+.pageination {
+    text-align: center;
+    margin-top: 50px;
+}
 
+.button_pageination{
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
 
 
 
@@ -324,6 +357,10 @@ width:auto;
     }
     .hidden{
         display: none;
+    }
+
+    .products{
+        grid-template-columns: repeat(2,minmax(0,1fr));
     }
 }
 @media (max-width:768px) {
