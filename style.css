@@ -338,7 +338,21 @@ width:auto;
     border-style: solid;
 }
 
+.product_button{
+    width: 200px;
+}
+.product_details_left{
+    flex: 1;
+}
+.product_details_left img{
+    width: 30rem;
+    height: 30rem;
+}
 
+.product_details_right{
+    flex: 1;
+    gap: 0.5rem;
+}
 
 /*---------------- Footer Ends Here --------------------*/
 
