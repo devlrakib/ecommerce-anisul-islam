@@ -289,6 +289,35 @@ width:auto;
 }
 /*---------------- Main Ends Here -----------------------*/
 
+
+/*---------------- Cart Design Starts Here -----------------------*/
+.cart{
+    padding: var(--padding);
+    gap: 1rem;
+}
+
+.cart .card{
+    margin-bottom: 1rem;
+}
+.cart_items{
+    flex: 1;
+}
+.cart_payments{
+    flex: 1;
+}
+
+.cart_item img{
+    width: 40%;
+}
+
+.cart_items_heading.card {
+    width: 50%;
+}
+.cart_item.card.flex-space-around {
+    width: 50%;
+}
+/*---------------- Cart Design Ends Here -----------------------*/
+
 /*---------------- Footer Starts Here --------------------*/
 .footer{
     background-color: var(--primary-color);
@@ -338,9 +367,7 @@ width:auto;
     border-style: solid;
 }
 
-.product_button{
-    width: 200px;
-}
+
 .product_details_left{
     flex: 1;
 }
